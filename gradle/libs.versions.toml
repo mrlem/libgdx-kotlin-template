@@ -1,10 +1,10 @@
 # https://docs.gradle.org/current/userguide/platforms.html#sub::toml-dependencies-format
 
 [versions]
-kotlin-gradle-plugin = "1.9.22"
+kotlin-gradle-plugin = "1.9.24"
 
 gdx = "1.12.1"
-gdx-gltf = "2.2.0"
+gdx-gltf = "2.2.1"
 ktx = "1.12.1-rc1"
 
 [libraries]
