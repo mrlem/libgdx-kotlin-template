@@ -3,7 +3,7 @@ plugins {
 }
 
 dependencies {
-    implementation(libs.gdx)
+    api(libs.gdx)
     api(libs.ktx)
     api(libs.ktx.scene2d)
 }

@@ -1,6 +1,12 @@
 pluginManagement {
     // Include 'plugins build' to define convention plugins.
     includeBuild("build-logic")
+
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
 }
 
 plugins {
@@ -9,4 +15,8 @@ plugins {
 }
 
 rootProject.name = "sample"
-include("desktop", "core")
+include(
+    "core",
+    "android",
+    "desktop",
+)
