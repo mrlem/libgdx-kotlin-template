@@ -4,7 +4,6 @@
 kotlin-gradle-plugin = "1.9.24"
 
 gdx = "1.12.1"
-gdx-gltf = "2.2.1"
 ktx = "1.12.1-rc1"
 
 [libraries]
@@ -13,6 +12,5 @@ kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", v
 gdx = { group = "com.badlogicgames.gdx", name = "gdx", version.ref = "gdx" }
 gdx-backend-lwjgl3 = { group = "com.badlogicgames.gdx", name = "gdx-backend-lwjgl3", version.ref = "gdx" }
 gdx-platform = { group = "com.badlogicgames.gdx", name="gdx-platform", version.ref = "gdx" }
-gdx-gltf = { group = "com.github.mgsx-dev.gdx-gltf", name = "gltf", version.ref = "gdx-gltf" }
 ktx = { group = "io.github.libktx", name = "ktx-app", version.ref = "ktx" }
 ktx-scene2d = { group = "io.github.libktx", name = "ktx-scene2d", version.ref = "ktx" }
